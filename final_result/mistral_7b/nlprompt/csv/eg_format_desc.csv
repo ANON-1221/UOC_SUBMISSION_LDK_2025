@@ -1,0 +1,168 @@
+,id,raw_text,aspect_term,sentiment_expression,target_entity,aspect_category,sentiment_polarity,sentiment_intensity,opinion_holder_span,opinion_holder_entity,opinion_qualifier,opinion_reason
+0,b-1,I ca n't imagine a better-written treatment of the subject .,,better-written treatment of the subject,content,general,positive,strong,i,author,,
+1,b-2,"I really like it.Be forewarned ( as other reviews have noted ) , this book sets up Magician 's End and you will not be particularly satisfied with the ending without keeping this in mind .",,really like it,book,general,positive,strong,i,author,,
+2,,,ending,,book,story_outcome,neutral,weak,,author,be forewarned ( as other reviews have noted ),this book sets up Magician 's End and you will not be particularly satisfied with the ending without keeping this in mind .
+3,b-3,"A mix of the Christian beliefs mixed with sexual abuse , followed by a courageous exit .",mix of the Christian beliefs mixed with sexual abuse,,book,content,neutral,,,author,,
+4,,,courageous exit,,book,operational_performance,positive,strong,,author,,
+5,b-4,If you 're into Diana books I 'd keep this one last after you 've read the rest .,diana books,,content,genre,,,if you 're into diana books,author,,I 'd keep this one last after you 've read the rest
+6,,,this one,,content,general,,,,author,,
+7,b-6,"The truth is , I felt the character 's journey was really a tough one to plod through at points , but ultimately satifying .",character 's journey,tough one to plod through at points,story,plot,negative,strong,I,author,,
+8,,,character 's journey,ultimately satisfying,story,plot,positive,strong,I,author,,
+9,b-7,OMG this book had my head spinning .,book,had my head spinning,book,operational_performance,negative,strong,OMG,author,,
+10,b-10,"Still , it was good to finish the series finally and there was some escape into the magical world ... just not as much fun to read as I had hoped .",finishing the series,good,book,general,positive,weak,still,author,,
+11,,,reading the book,not as much fun to read,book,enjoyment,negative,strong,,author,as I had hoped,
+12,b-11,"And while not being at all didactic in the patronizing sense , the book teaches the reader a great deal about cancer the disease and its treatment .",book,teaches the reader a great deal about cancer the disease and its treatment,book,educational_value,positive,strong,,author,,
+13,b-12,Highly recommend this book .,,highly recommend,book,general,positive,strong,,author,,
+14,b-13,"However , if you want more details about the man in general , his family , his struggles over the years , then I would suggest Roasting in Hell 's Kitchen .",Roasting in Hell 's Kitchen,,book,content,,,however,author,,"if you want more details about the man in general , his family , his struggles over the years"
+15,,,,"more details about the man in general , his family , his struggles over the years",book,content,,,,author,,
+16,b-14,"There is also the issue of whether various treatments were actually extending the lifespans of those afflicted , which was also not as simple as one might think.While the above discussion of science and statistics might make this book seem dreadfully boring , this is n't the case .",various treatments,extending the lifespans of those afflicted,medical_treatment,effectiveness,positive,strong,,author,,
+17,,,discussion of science and statistics,dreadfully boring,content,entertainment_value,negative,strong,author,author,,
+18,b-15,"Here , we see that aspect of the tale really expanded upon , elevating a lackluster minor plot thread to a level of significance worthy of Midkemia 's final chapter .",aspect of the tale,elevated,plot,story_development,positive,strong,we,author,,
+19,,,lackluster minor plot thread,,plot,story_quality,negative,strong,,author,,
+20,,,level of significance,worthy of Midkemia 's final chapter,plot,story_importance,positive,strong,,author,,
+21,b-16,"The writing in particular is disapointing : unsophisticated , almost juvenile in comparison to earlier volumes .",writing,disappointing,content,genre,negative,strong,the writing in particular,author,,"unsophisticated , almost juvenile in comparison to earlier volumes"
+22,b-17,Loved the book .,,loved,book,general,positive,strong,,author,,
+23,b-18,Sad tale of just how easy it is for these abused children to get lost in the welfare system .,welfare system,sad tale,welfare system,operational_performance,negative,strong,,author,just how easy it is for these abused children to get lost,
+24,b-19,And then we about hit rock bottom with The Demonwar Saga .,The Demonwar Saga,hit rock bottom,book series,general,negative,strong,and then we,author,,
+25,b-20,Not that there is no humour the author has the ability to bring an ironic touch to the darkest scenes but this is not a crime novel for the faint hearted .,humour,,book,genre,negative,weak,author,author,,
+26,,,ironic touch,,book,genre,positive,strong,author,author,darkest scenes,
+27,,,crime novel,,book,genre,negative,strong,author,author,faint hearted,
+28,b-20,The 3 lady 's courage can be found to be inspirational & a lesson to us all .,3 lady 's courage,inspirational,women,personal_characteristics,positive,strong,,author,,a lesson to us all
+29,b-26,"For an avid Diana fan , the innocent day-to-day insight is appreciated , however , certain facts should not have been revealed .",innocent day-to-day insight,appreciated,book,content,positive,strong,for an avid Diana fan,reader,,
+30,,,certain facts,,book,content,negative,strong,,author,should not have been revealed,
+31,b-22,"I have had this on my shelf for several years for intended reading : Had I appreciated what a compelling narrative Mukherjee sets out , and how well he tells it , I would have read it much sooner.As there are numerous , good reviews of this exceptional book , I will not pile on , except to say that this is a comprehensive and detailed treatment for the non-expert , that manages to explain the science ( and some of the politics ) with clarity , while providing a compelling and often moving narrative .",compelling narrative,,book,storytelling,positive,strong,I,author,,
+32,,,Mukherjee sets out,,author,writing_style,positive,strong,,author,,
+33,,,well he tells it,,author,storytelling,positive,strong,,author,,
+34,,,"numerous , good reviews",,book,reputation,positive,strong,,author,,
+35,h-1,The location is unbeatable and the rooftop was beyond spectacular .,location,unbeatable,location,geographical_location,positive,strong,,author,,
+36,,,rooftop,beyond spectacular,rooftop,operational_performance,positive,strong,,author,,
+37,h-2,The room was very comfortable and the bathroom connected to the room was a great addition .,room,very comfortable,room,comfort,positive,strong,,author,,
+38,,,bathroom connected to the room,great addition,bathroom,operational_performance,positive,strong,,author,,
+39,h-3,It 's a good place and will definitely consider to come again .,,good place,location,general,positive,strong,it,author,,
+40,,,,will definitely consider to come again,location,general,positive,strong,,author,,
+41,h-4,"There is a grocery store a 15 min walk away , which was easy to walk from with a few groceries for breakfasts and snacks .",grocery store,,store,location,,,there is,author,,
+42,,,walk from,easy,store,accessibility,positive,weak,,author,,a few groceries for breakfasts and snacks
+43,,,groceries for breakfasts and snacks,,groceries,quality,,,,author,,
+44,h-5,"The apartment is kept very clean , and nicely furnished .",clean,kept very clean,apartment,operational_performance,positive,strong,,author,,
+45,,,nicely furnished,,apartment,appearance,positive,strong,,author,,
+46,h-6,Really great location close to so many restaurants .,location,great,property,location,positive,strong,really,author,,close to so many restaurants
+47,h-7,"Oine was a terrific host - very responsive by text and email , and thoughtful with her preparation of the apartment , which was spotless and nicely decorated , and feels like home .",host,terrific,host,service_quality,positive,strong,one,guest,,
+48,,,responsiveness,very responsive,host,service_quality,positive,strong,responsive by text and email,guest,,
+49,,,preparation of the apartment,thoughtful,host,service_quality,positive,strong,thoughtful with her preparation of the apartment,guest,,
+50,,,apartment,spotless and nicely decorated,apartment,cleanliness,positive,strong,spotless and nicely decorated,guest,,
+51,h-8,Excellent space in a fantastic location .,space,excellent,property,operational_performance,positive,strong,,author,,
+52,h-9,Tiffany 's apartment space is the perfect spot if you 're staying in Boston .,apartment space,perfect spot,apartment,location,positive,strong,,author,staying in Boston,
+53,h-10,By far one of the best locations you could stay at in Boston .,location,best locations you could stay at in Boston,hotel,location,positive,strong,by far,author,,
+54,h-11,Everything was super clean .,cleanliness,super clean,location,operational_performance,positive,strong,everything,author,,
+55,h-13,Entry was simple and easy .,entry,simple and easy,process,operational_performance,positive,strong,,author,,
+56,h-14,Great location close to the Commons .,location,great,property,location,positive,strong,,author,close to the Commons,
+57,h-16,"My hosts made me feel welcome the second I entered the home , helping me carry my items upstairs , explaining where everything was and offering me breakfast and coffee in the morning .",hosts,,hosts,hospitality,positive,strong,my,author,,"helping me carry my items upstairs , explaining where everything was and offering me breakfast and coffee in the morning"
+58,,,home,,home,accommodation,positive,strong,,author,,My hosts made me feel welcome the second I entered the home
+59,,,breakfast and coffee,,breakfast and coffee,food,positive,strong,offering me,hosts,,offering me breakfast and coffee in the morning
+60,h-17,This location does not have a kitchen and you must share a bathroom .,location,,accommodation,facilities,negative,strong,,author,,This location does not have a kitchen and you must share a bathroom
+61,,,kitchen,,accommodation,facilities,negative,strong,,author,,This location does not have a kitchen
+62,,,bathroom,,accommodation,facilities,negative,strong,,author,you must share,you must share a bathroom
+63,h-19,The hit was the rooftop which allowed for 360 degree views which was perfect for the 70-80 degree weather we were enjoying .,hit,,location,operational_performance,,,,author,,
+64,,,360 degree views,perfect,location,operational_performance,positive,strong,,author,,70-80 degree weather we were enjoying
+65,,,70-80 degree weather,,weather,operational_performance,,,,author,,
+66,h-20,I highly recommend it !,,highly recommend,product/service,general,positive,strong,i,author,,
+67,h-24,Excellent location for exploring Boston .,location,excellent,place,geographical_location,positive,strong,,author,,Boston
+68,h-21,Best location in Boston .,location,best,Boston,general,positive,strong,,author,,
+69,h-28,Great attention to detail and very good communication,attention to detail,great,service,operational_performance,positive,strong,,author,,
+70,,,communication,very good,service,operational_performance,positive,strong,,author,,
+71,c-1,I enjoy dancing with these shoes on my feet .,dancing with these shoes,,shoes,operational_performance,positive,strong,I,author,,
+72,c-2,Super crinoline for the price !,price,super,crinoline,cost,positive,strong,,author,,
+73,c-3,The transition option is nice too so you can wear them as leggings .,transition option,nice,clothing,design,positive,weak,,author,too so you can wear them as leggings,
+74,c-4,They hold up great !,,hold up great,product,operational_performance,positive,strong,they,author,,
+75,c-5,I have always worn LifeStride shoes but was disappointed when they were not leather and they were made in China .,LifeStride shoes,disappointed,shoes,material,negative,strong,I,author,,they were not leather
+76,,,LifeStride shoes,,shoes,manufacturing_location,negative,strong,I,author,,they were made in China
+77,c-7,I use them for musical theatre productions and they holdup well .,they,holdup well,microphones,operational_performance,positive,weak,i,author,,
+78,c-8,"She said they are so comfortable , and they are perfect .",they,comfortable,shoes,operational_performance,positive,strong,she,person,,
+79,,,they,perfect,shoes,operational_performance,positive,strong,she,person,,
+80,c-10,"They slot over the abdomen as I was putting them on very carefully this morning -could not wear them , will return .",They,cannot wear them,underwear,usability,negative,strong,,author,,could not wear them
+81,,,They,will return,underwear,usability,negative,strong,,author,,could not wear them
+82,c-11,"These are the most comfortable shoes I 've ever worn , and they 're stylish .",comfort,most comfortable,shoes,operational_performance,positive,strong,,author,,
+83,,,style,stylish,shoes,aesthetics,positive,strong,,author,,
+84,c-12,I bought 2 other pairs for other cast members !,2 other pairs,,shoes,quantity,neutral,,i,author,,
+85,c-13,Comfortable and attractive .,,comfortable and attractive,product,general,positive,strong,,author,,
+86,c-15,Everything else about these tights is amazing .,,amazing,tights,general,positive,strong,everything else,author,,
+87,c-16,These shoes are great .,shoes,great,footwear,general,positive,strong,,author,,
+88,c-17,"Although the tights make the legs look beautiful , I have noticed the the seams are coming apart at the crotch .",tights,make the legs look beautiful,clothing,appearance,positive,strong,I,author,,
+89,,,seams,coming apart at the crotch,clothing,operational_performance,negative,strong,I have noticed,author,,
+90,c-18,They are nice and exactly what I expected .,,nice,product,general,positive,weak,they,author,,
+91,c-19,"My husband loves his boots , excellent quality .",boots,excellent quality,footwear,operational_performance,positive,strong,my husband,spouse,,
+92,c-20,Very small fit .,fit,small,product,size,negative,strong,,author,,
+93,c-25,Follow the capezio size chart and you 're in the clear .,capezio size chart,in the clear,dance shoes,sizing,positive,strong,follow,author,,
+94,c-21,The soles are soft too .,soles,soft,shoes,operational_performance,negative,weak,,author,,
+95,c-24,Order 1 size larger than needed .,size,,order,operational_performance,negative,strong,order,,,
+96,l-1,Great for Programming and for low end gaming,Great for Programming,,laptop,operational_performance,positive,strong,,author,,
+97,,,for low end gaming,,laptop,gaming_performance,positive,weak,,author,,
+98,l-2,"The combination of these design flows leads to broken displays when the magsafe plug is caught inside the computer upon closing , breaking the monitor .",combination of these design flows,broken displays,display,operational_performance,negative,strong,The combination of these design flows,author,when the magsafe plug is caught inside the computer upon closing,breaking the monitor
+99,,,magsafe plug,,hardware,design,negative,strong,magsafe plug,author,,broken displays when the magsafe plug is caught inside the computer upon closing
+100,,,design flows,,design,design,negative,strong,design flows,author,,broken displays when the magsafe plug is caught inside the computer upon closing
+101,l-3,Images are too dark and blurry .,images,too dark and blurry,photographs,visual_quality,negative,strong,,author,,
+102,l-5,"I got it mainly to do android app development , and let me tell you , it 's worth more than it 's price .",android app development,worth more than it 's price,android studio,utility,positive,strong,i,author,,
+103,l-6,I 'm a mac user and I would love to get this laptop .,,would love to get this laptop,laptop,general,positive,strong,I,author,,
+104,l-7,Keyboard : it is all mushy no tactile feedback .,tactile feedback,,keyboard,operational_performance,negative,strong,,author,,it is all mushy
+105,l-9,"For the price you can not go wrong , especially having an 8th gen Intel processor .",price,can not go wrong,product,cost,positive,strong,,author,especially having an 8th gen Intel processor,
+106,,,8th gen Intel processor,,product,hardware,positive,strong,,author,,
+107,l-10,"It 's very well made - solid construction and a comfortable , well-sized keyboard .",construction,well made,product,operational_performance,positive,strong,,author,,
+108,,,keyboard,"comfortable , well-sized",keyboard,operational_performance,positive,weak,,author,"comfortable , well-sized",
+109,l-12,Camera and microphone are both high enough quality for discord/google hangouts/etc .,camera,high enough quality,camera,operational_performance,positive,strong,camera and microphone,author,for discord/google hangouts/etc,
+110,,,microphone,high enough quality,microphone,operational_performance,positive,strong,camera and microphone,author,for discord/google hangouts/etc,
+111,l-13,It has a nice keyboard touch .,keyboard touch,nice,keyboard,operational_performance,positive,weak,,author,,
+112,l-14,"Please do not purchase this computer , it performs worse than the $ 200 computer I used while waiting on the ' replacement ' computer I got when the other one crashed .",this computer,performs worse,computer,operational_performance,negative,strong,please do not purchase this computer,author,,it performs worse than the $ 200 computer I used while waiting on the ' replacement ' computer I got when the other one crashed
+113,,,$ 200 computer,,computer,operational_performance,positive,strong,,author,,
+114,l-15,It took a few weeks for them to send it back .,sending time,,service,operational_performance,negative,weak,they,service provider,,it took a few weeks for them to send it back
+115,l-17,I have gone through all the troubleshooting steps and still nothing .,troubleshooting steps,nothing,troubleshooting process,operational_performance,negative,strong,i,author,,
+116,l-18,"Even without a SSD , it is still pretty fast .",speed,pretty fast,computer,operational_performance,positive,average,,author,even without a SSD,
+117,l-19,I really liked the laptop for its sleekness and weight .,sleekness,liked,laptop,design,positive,strong,I,author,,
+118,,,weight,liked,laptop,design,positive,strong,I,author,,
+119,l-24,Delivery - very fast by courier .,delivery,very fast,delivery service,speed,positive,strong,,author,by courier,
+120,l-28,"This laptop is verry good , the screen is not the best but its good for the price , its a cheap gaming laptop and works with every game i trow at it : - )",laptop,verry good,laptop,general,positive,strong,this,author,,
+121,,,screen,good,display,operational_performance,positive,weak,the,author,its good for the price,
+122,,,price,good for the price,laptop,cost,positive,weak,its,author,,
+123,,,laptop,cheap gaming laptop,laptop,genre,positive,strong,its,author,works with every game i trow at it,
+124,l-26,"Laptop was new , in perfect condition and works like a charm .",laptop,new,laptop,general,positive,strong,,author,,
+125,,,condition,perfect,laptop,general,positive,strong,,author,,
+126,,,works,works like a charm,laptop,operational_performance,positive,strong,,author,,
+127,l-29,"I had hoped for better battery life , as it had only about 2-1/2 hours doing heavy computations ( 8 threads using 100 % of the CPU ) .",battery life,,device,operational_performance,negative,strong,i,author,had hoped for better,doing heavy computations ( 8 threads using 100 % of the CPU )
+128,l-21,Feel really disappointed as was so happy with previous model .,previous model,happy,product,performance,positive,strong,feel,author,,
+129,,,current model,disappointed,product,performance,negative,strong,feel,author,,
+130,r-1,"Weird , but whatever , I need to eat regardless of the coupon.We waited for what seemed like an incredibly long time just to get our food .",,weird,restaurant,general,negative,strong,,author,but whatever,I need to eat regardless of the coupon
+131,,,waiting time,incredibly long time,service,operational_performance,negative,strong,we waited,author,,
+132,r-2,I come here because you leave full and with money still in your pockets .,service,leave full and with money still in your pockets,business,financial_performance,positive,strong,i,customer,,
+133,r-3,I love hot pot but the service just makes things bad here .,hot pot,love,food,taste,positive,strong,i,author,,
+134,,,service,bad,restaurant,operational_performance,negative,strong,the service,author,here,
+135,r-4,"I do n't usually order PhO ( I do n't think I do at all because my mom is a great Pho cooker ) , yet this place makes me wanting Pho every time I come .",this place,makes me wanting Pho every time I come,restaurant,operational_performance,positive,strong,I,author,,
+136,,,PhO,,food,taste,positive,strong,,author,I do n't usually order PhO,my mom is a great Pho cooker
+137,,,my mom,great Pho cooker,person,culinary_skills,positive,strong,,author,,
+138,r-5,This is one of my favorite brunch places .,favorite brunch places,,restaurant,preference,positive,strong,this,author,,
+139,r-6,Other establishments on the North End spoil you with tasty oils and fresh bread ... that 's a big miss here !,tasty oils and fresh bread,,food,taste,negative,strong,other establishments on the North End,other restaurants,,
+140,,,,big miss,restaurant,general,negative,strong,,author,,that 's a big miss here !
+141,r-8,"Im going to have to come back here to try the food , so this review is just for the drinks , service and atmosphere.The atmosphere is great , nothing is too overwhelming and it does n't seem like they 're trying to beat you over the head with a theme in the decorating .",atmosphere,great,restaurant,ambiance,positive,strong,I,author,,nothing is too overwhelming and it does n't seem like they 're trying to beat you over the head with a theme in the decorating
+142,,,service,,restaurant,operational_performance,positive,weak,,author,,
+143,,,drinks,,restaurant,food_and_beverage,neutral,weak,,author,,"Im going to have to come back here to try the food , so this review is just for the drinks , service and atmosphere"
+144,r-9,This will probably be the last time we will come here .,,last time,visit,frequency,negative,strong,this,author,,
+145,r-10,"Stop driving out the wrong way , idiots.No credit cards , which is a bummer , but they do have an ATM inside .",driving out the wrong way,idiots,driving,operational_performance,negative,strong,,author,,
+146,,,no credit cards,,payment_options,operational_performance,negative,strong,,author,,
+147,,,they have an ATM inside,,ATM,operational_performance,neutral,weak,,author,,
+148,r-12,"So , while I would n't quite recommend it for date night or a rehearsal dinner , it 's plenty acceptable for grabbing a quick lunch or dinner on your way somewhere else .",,plenty acceptable,restaurant,general,positive,weak,,author,,
+149,,,,not recommend it for date night or a rehearsal dinner,restaurant,social_events,negative,strong,,author,,
+150,r-13,Went to breakfast with my bestie here and really enjoyed the country style breakfast and ambiance. They were pretty crowded for a weekday and our server ladies were really sweet and helpful .,country style breakfast,really enjoyed,restaurant,food,positive,strong,i,author,,
+151,,,ambiance,really enjoyed,restaurant,environment,positive,strong,i,author,,
+152,,,they were pretty crowded,,restaurant,operational_performance,neutral,weak,they,author,for a weekday,
+153,,,our server ladies,really sweet and helpful,restaurant,service,positive,strong,our,author,,
+154,r-14,Great place !,,great,location,general,positive,strong,,author,,
+155,r-17,"My advice to the owners : Walking by on E. Hastings , it 's easy to miss this spot .",,miss,location,visibility,negative,weak,my advice to the owners,author,,"Walking by on E. Hastings , it 's easy to miss this spot"
+156,r-18,The reason why I gave 3 stars is because we had to search for our waitress and it took about a hour before we receive our food .,service,,restaurant,operational_performance,negative,strong,I,customer,,we had to search for our waitress and it took about a hour before we receive our food
+157,,,food,,restaurant,food_quality,neutral,weak,,customer,,
+158,r-20,To add more insult he added a splash of coke to our drinks ... ..I 'm a relatively calm guy .,splash of coke,added a splash of coke,drink,taste,negative,strong,he,person,,To add more insult
+159,,,,I 'm a relatively calm guy,self,personality,positive,weak,I,person,,
+160,r-20,The old place was more accommodating to singles .,accommodating,more accommodating,place,general,positive,weak,,author,to singles,
+161,r-21,This chicken is unbelievable .,chicken,unbelievable,food,taste,positive,strong,this,author,,
+162,r-23,The chicken was also overcooked and dry .,chicken,overcooked and dry,food,taste,negative,strong,,author,,
+163,r-27,I was reluctant to go here .,,reluctant,location,general,negative,strong,i,author,,
+164,r-28,"Amazing turkey burger , french fries are to die for , and dont even get me STARTED on the milkshakes .",turkey burger,amazing,food,taste,positive,strong,,author,,
+165,,,french fries,to die for,food,taste,positive,strong,,author,,
+166,,,milkshakes,,food,taste,positive,strong,dont even get me STARTED,author,,

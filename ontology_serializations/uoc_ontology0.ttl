@@ -1,0 +1,299 @@
+@prefix : <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts/> .
+
+<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#conveysSentiment
+:conveysSentiment rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Opinion ;
+                  rdfs:range :Sentiment .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#embodiesAspect
+:embodiesAspect rdf:type owl:ObjectProperty ;
+                rdfs:domain :Target ;
+                rdfs:range :Aspect .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#hasIntensity
+:hasIntensity rdf:type owl:ObjectProperty ;
+              rdfs:domain :Sentiment ;
+              rdfs:range :Intensity .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#hasPolarity
+:hasPolarity rdf:type owl:ObjectProperty ;
+             rdfs:domain :Sentiment ;
+             rdfs:range :Polarity .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#hasQualifier
+:hasQualifier rdf:type owl:ObjectProperty ;
+              rdfs:domain :Opinion ;
+              rdfs:range :Qualifier .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#hasReason
+:hasReason rdf:type owl:ObjectProperty ;
+           rdfs:domain :Opinion ;
+           rdfs:range :Reason .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#hasSentimentExpression
+:hasSentimentExpression rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Sentiment ;
+                        rdfs:range :Expression .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#hasTargetEntity
+:hasTargetEntity rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Target ;
+                 rdfs:range :TargetEntity .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#intensity_value
+:intensity_value rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Intensity ;
+                 rdfs:range :IntensityValuePartition .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#isExpressedOnTarget
+:isExpressedOnTarget rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Opinion ;
+                     rdfs:range :Target .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#isHeldBy
+:isHeldBy rdf:type owl:ObjectProperty ;
+          rdfs:domain :Opinion ;
+          rdfs:range :Holder .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#polarity_value
+:polarity_value rdf:type owl:ObjectProperty ;
+                rdfs:domain :Polarity ;
+                rdfs:range :PolarityValuePartition .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_category
+:aspect_category rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :Aspect ;
+                 rdfs:range [ rdf:type rdfs:Datatype ;
+                              owl:unionOf ( xsd:anyURI
+                                            xsd:string
+                                          )
+                            ] .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_term
+:aspect_term rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Aspect ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_entity
+:holder_entity rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Holder ;
+               rdfs:range [ rdf:type rdfs:Datatype ;
+                            owl:unionOf ( xsd:anyURI
+                                          xsd:string
+                                        )
+                          ] .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_span
+:holder_span rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Holder ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#qualifier_value
+:qualifier_value rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Qualifier ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#reason_value
+:reason_value rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Reason ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#sentiment_expression_span
+:sentiment_expression_span rdf:type owl:DatatypeProperty ;
+                           rdfs:domain :Expression ;
+                           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#target_entity_value
+:target_entity_value rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :TargetEntity ;
+                     rdfs:range [ rdf:type rdfs:Datatype ;
+                                  owl:unionOf ( xsd:anyURI
+                                                xsd:string
+                                              )
+                                ] .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Aspect
+:Aspect rdf:type owl:Class ;
+        rdfs:subClassOf :Target ;
+        owl:disjointWith :TargetEntity .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Average
+:Average rdf:type owl:Class ;
+         rdfs:subClassOf :IntensityValuePartition .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Expression
+:Expression rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Holder
+:Holder rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Intensity
+:Intensity rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasIntensity ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :IntensityValuePartition
+                           ] .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#IntensityValuePartition
+:IntensityValuePartition rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:unionOf ( :Average
+                                                             :Strong
+                                                             :Weak
+                                                           )
+                                             ] .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Negative
+:Negative rdf:type owl:Class ;
+          rdfs:subClassOf :PolarityValuePartition .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Neutral
+:Neutral rdf:type owl:Class ;
+         rdfs:subClassOf :PolarityValuePartition .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Opinion
+:Opinion rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Polarity
+:Polarity rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasPolarity ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :PolarityValuePartition
+                          ] .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#PolarityValuePartition
+:PolarityValuePartition rdf:type owl:Class ;
+                        owl:equivalentClass [ rdf:type owl:Class ;
+                                              owl:unionOf ( :Negative
+                                                            :Neutral
+                                                            :Positive
+                                                          )
+                                            ] .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Positive
+:Positive rdf:type owl:Class ;
+          rdfs:subClassOf :PolarityValuePartition .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Qualifier
+:Qualifier rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Reason
+:Reason rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Sentiment
+:Sentiment rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Strong
+:Strong rdf:type owl:Class ;
+        rdfs:subClassOf :IntensityValuePartition .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Target
+:Target rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#TargetEntity
+:TargetEntity rdf:type owl:Class ;
+              rdfs:subClassOf :Target .
+
+
+###  http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Weak
+:Weak rdf:type owl:Class ;
+      rdfs:subClassOf :IntensityValuePartition .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Average
+                :Strong
+                :Weak
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Expression
+                :Intensity
+                :Polarity
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Holder
+                :Qualifier
+                :Reason
+                :Sentiment
+                :Target
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Negative
+                :Neutral
+                :Positive
+              )
+] .

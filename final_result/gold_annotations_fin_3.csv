@@ -1,0 +1,135 @@
+id,raw_text,aspect_term,sentiment_expression,target_entity,aspect_category,sentiment_polarity,opinion_holder_span,opinion_holder_entity,sentiment_intensity,opinion_qualifier,opinion_reason
+b-1,I ca n't imagine a better-written treatment of the subject .,subject,ca n't imagine a better-written,Content,Plot,POS,I,Author,strong,,
+b-2,"I really like it.Be forewarned ( as other reviews have noted ) , this book sets up Magician 's End and you will not be particularly satisfied with the ending without keeping this in mind .",book,really like,Book,General,POS,I,Author,strong,,
+,,ending,not be particularly satisfied,Content,Plot,NEG,you,Reader,weak,,this book sets up Magician 's End
+b-3,"A mix of the Christian beliefs mixed with sexual abuse , followed by a courageous exit .",,courageous,Content,Plot,POS,,Author,average,,
+b-4,If you 're into Diana books I 'd keep this one last after you 've read the rest .,NULL,,Book,General,POS,I,Author,Average,you 're into Diana books,
+b-6,"The truth is , I felt the character 's journey was really a tough one to plod through at points , but ultimately satifying .",character 's journey,ultimately satifying,Content,Plot,POS,I,Author,average,,
+b-7,OMG this book had my head spinning .,book,,Book,General,POS,my,Author,strong,,
+b-10,"Still , it was good to finish the series finally and there was some escape into the magical world ... just not as much fun to read as I had hoped .",series,good,Book,General,POS,,,weak,,there was some escape into the magical world
+,,NULL,not as much fun,Content,Plot,NEG,I,Author,weak,,
+b-11,"And while not being at all didactic in the patronizing sense , the book teaches the reader a great deal about cancer the disease and its treatment .",book,,Book,General,POS,,Author,average,about cancer the disease and it's treatment,teaches the reader a great deal
+b-12,Highly recommend this book .,book,Highly recommend,Book,General,POS,,Author,strong,,
+b-13,"However , if you want more details about the man in general , his family , his struggles over the years , then I would suggest Roasting in Hell 's Kitchen .",Roasting in Hell 's Kitchen,,Book,Characters,POS,I,Author,weak,you want more details about the man,
+b-14,"There is also the issue of whether various treatments were actually extending the lifespans of those afflicted , which was also not as simple as one might think.While the above discussion of science and statistics might make this book seem dreadfully boring , this is n't the case .",book,"seem dreadfully boring , this is n't the case ",Content,General,NEU,,Author,average,,
+b-15,"Here , we see that aspect of the tale really expanded upon , elevating a lackluster minor plot thread to a level of significance worthy of Midkemia 's final chapter .",plot ,level of significance,Content,Plot,POS,we,Author,strong,,
+,,tale,really expanded upon,Content,Plot,POS,we,Author,average,,
+,,plot thread,lackluster minor,Content,Plot,NEG,we,Author,strong,,
+b-16,"The writing in particular is disapointing : unsophisticated , almost juvenile in comparison to earlier volumes .",writing,"disapointing : unsophisticated , almost juvenile",Content,Quality,NEG,,Author,strong,,in comparison to earlier volumes
+b-17,Loved the book .,book,Loved,Book,General,POS,,Author,strong,,
+b-18,Sad tale of just how easy it is for these abused children to get lost in the welfare system .,Sad tale,NULL,Content,Plot,NEU,,Author,average,,
+b-19,And then we about hit rock bottom with The Demonwar Saga .,The Demonwar Saga,hit rock bottom,Book,General,NEG,we,Author,strong,,
+b-20,Not that there is no humour the author has the ability to bring an ironic touch to the darkest scenes but this is not a crime novel for the faint hearted .,crime novel,,Content,Genre,POS,,Author,average,not a crime novel for the faint hearted,bring an ironic touch to the darkest scenes
+b-20,The 3 lady 's courage can be found to be inspirational & a lesson to us all .,3 lady 's courage,inspirational,Content,Characters,POS,,Author,strong,us all,
+b-26,"For an avid Diana fan , the innocent day-to-day insight is appreciated , however , certain facts should not have been revealed .",innocent day-to-day insight,appreciated,Content,Quality,POS,,Author,average,avid Diana fan,
+b-22,"I have had this on my shelf for several years for intended reading : Had I appreciated what a compelling narrative Mukherjee sets out , and how well he tells it , I would have read it much sooner.As there are numerous , good reviews of this exceptional book , I will not pile on , except to say that this is a comprehensive and detailed treatment for the non-expert , that manages to explain the science ( and some of the politics ) with clarity , while providing a compelling and often moving narrative .",narrative,compelling and often moving,Content,Quality,POS,I,Author,strong,non-experts ,
+,,book,exceptional,Book,General,POS,I,Author,strong,non-experts,"comprehensive and detailed treatment for the non-expert , that manages to explain the science ( and some of the politics ) with clarity , while providing a compelling and often moving narrative ."
+,,narrative,compelling,Content,Quality,POS,I,Author,strong,,how well he tells it
+h-1,The location is unbeatable and the rooftop was beyond spectacular .,rooftop,beyond spectacular,Facilities,Design_features,POS,,Author,strong,,
+,,location,unbeatable,Location,General,POS,,Author,strong,,
+h-2,The room was very comfortable and the bathroom connected to the room was a great addition .,room,very comfortable,Rooms,Comfort,POS,,Author,strong,,
+,,bathroom,great addition,Room_Amenities,General,POS,,Author,strong,,connected to the room
+h-3,It 's a good place and will definitely consider to come again .,place,good,Hotel,General,POS,,Author,average,,
+h-4,"There is a grocery store a 15 min walk away , which was easy to walk from with a few groceries for breakfasts and snacks .",grocery store,easy to walk,Location,General,POS,,Author,average,,15 min walk away
+h-5,"The apartment is kept very clean , and nicely furnished .",apartment,nicely furnished,Rooms,Design_features,POS,,Author,average,,
+,,apartment,very clean,Rooms,Cleanliness,POS,,Author,strong,,
+h-6,Really great location close to so many restaurants .,location,Really great,Location,General,POS,,Author,strong,,close to so many restaurants
+h-7,"Oine was a terrific host - very responsive by text and email , and thoughtful with her preparation of the apartment , which was spotless and nicely decorated , and feels like home .",host,terrific,Service,General,POS,,Author,strong,,"very responsive by text and email , and thoughtful with her preparation of the apartment"
+,,apartment,spotless,Rooms,Cleanliness,POS,,Author,strong,,
+,,host,thoughtful,Service,General,POS,,Author,average,,
+,,apartment,nicely decorated,Rooms,Design_features,POS,,Author,average,,feels like home
+,,host,very responsive,Service,Quality,POS,,Author,strong,,
+h-8,Excellent space in a fantastic location .,space,Excellent,Rooms,Design_features,POS,,Author,strong,,
+,,location,fantastic,Location,General,POS,,Author,strong,,
+h-9,Tiffany 's apartment space is the perfect spot if you 're staying in Boston .,Tiffany 's apartment,perfect spot,Location,General,POS,,Author,strong,staying in Boston,
+h-10,By far one of the best locations you could stay at in Boston .,NULL,one of the best,Location,General,POS,,Author,strong,stay at in Boston,
+h-11,Everything was super clean .,NULL {everything},super clean,Hotel,Cleanliness,POS,,Author,strong,,
+h-13,Entry was simple and easy .,Entry,simple and easy,Service,General,POS,,Author,average,,
+h-14,Great location close to the Commons .,location,Great,Location,General,POS,,Author,strong,,close to the Commons
+h-16,"My hosts made me feel welcome the second I entered the home , helping me carry my items upstairs , explaining where everything was and offering me breakfast and coffee in the morning .",hosts,,Service,General,POS,"me, I",Author,strong,," feel welcome the second I entered the home , helping me carry my items upstairs , explaining where everything was and offering me breakfast and coffee in the morning"
+h-17,This location does not have a kitchen and you must share a bathroom .,location,,Rooms,Design_features,NEG,,Author,average,you,not have a kitchen and you must share a bathroom
+h-19,The hit was the rooftop which allowed for 360 degree views which was perfect for the 70-80 degree weather we were enjoying .,rooftop,The hit,Facilities,Design_features,POS,we,Author,strong,,allowed for 360 degree views which was perfect for the 70-80 degree weather
+h-20,I highly recommend it !,,highly recommend,Hotel,General,POS,I,Author,strong,,
+h-24,Excellent location for exploring Boston .,location,Excellent,Location,General,POS,,Author,strong,exploring Boston,
+h-21,Best location in Boston .,location,Best,Location,General,POS,,Author,strong,in Boston,
+h-28,Great attention to detail and very good communication,communication,very good,Service,Quality,POS,,Author,strong,,
+,,,Great attention to detail,Service,Quality,POS,,Author,strong,,
+c-1,I enjoy dancing with these shoes on my feet .,shoes,enjoy,Shoes,General,POS,I,Author,average,,
+c-2,Super crinoline for the price !,crinoline,Super,Clothing,Prices,POS,,Author,strong,,
+c-3,The transition option is nice too so you can wear them as leggings .,transition option,nice,Bottom,Options,POS,,Author,average,you,can wear them as leggings
+c-4,They hold up great !,NULL,great,Clothing,Quality,POS,,Author,strong,,hold up
+c-5,I have always worn LifeStride shoes but was disappointed when they were not leather and they were made in China .,LifeStride shoes,disappointed,Shoes,Brand,NEG,I,Author,average,,they were not leather and they were made in China
+c-7,I use them for musical theatre productions and they holdup well .,NULL,well,Clothing,Quality,POS,I,Author,average,for musical theatre productions,holdup
+c-8,"She said they are so comfortable , and they are perfect .",NULL,perfect,Clothing,General,POS,she,Indirect,strong,,
+,,NULL,so comfortable,Clothing,Quality,POS,she,Indirect,strong,,
+c-10,"They slot over the abdomen as I was putting them on very carefully this morning -could not wear them , will return .",NULL,,Clothing,General,NEG,I,Author,average,,could not wear them
+c-11,"These are the most comfortable shoes I 've ever worn , and they 're stylish .",shoes,most comfortable,Shoes,Quality,POS,I,Author,strong,,
+,,shoes,stylish,Shoes,Looking,POS,I,Author,average,,
+c-12,I bought 2 other pairs for other cast members !,,,Clothing,General,POS,I,Author,strong,other cast members,bought 2 other pairs
+c-13,Comfortable and attractive .,,attractive ,Clothing,Looking,POS,,Author,average,,
+,,,Comfortable,Clothing,Quality,POS,,Author,average,,
+c-15,Everything else about these tights is amazing .,tights,amazing,Bottom,General,POS,,Author,strong,,
+c-16,These shoes are great .,shoes,great,Shoes,General,POS,,Author,strong,,
+c-17,"Although the tights make the legs look beautiful , I have noticed the the seams are coming apart at the crotch .",tights,NULL,Bottom,Looking,POS,I,Author,average,,make the legs look beautiful
+,,seams,NULL,Bottom,Quality,NEG,I,Author,average,,coming apart at the crotch
+c-18,They are nice and exactly what I expected .,NULL,nice,Clothing,General,POS,I,Author,average,,exactly what I expected
+c-19,"My husband loves his boots , excellent quality .",boots,loves,Shoes,Quality,POS,husband,Indirect,strong,,excellent quality
+c-20,Very small fit .,NULL,Very small fit,Clothing,Size,NEG,,Author,strong,,
+c-25,Follow the capezio size chart and you 're in the clear .,capezio size chart ,in the clear,Clothing,Size,POS,,Author,average,you,
+c-21,The soles are soft too .,soles,soft,Shoes,Quality,POS,,Author,average,,
+c-24,Order 1 size larger than needed .,NULL,NULL,Clothing,Size,NEG,,Author,average,,Order 1 size larger than needed
+l-1,Great for Programming and for low end gaming,,Great,Computer,Operation_Performance,POS,,Author,strong,for Programming and for low end gaming,
+l-2,"The combination of these design flows leads to broken displays when the magsafe plug is caught inside the computer upon closing , breaking the monitor .",design,flows,Hardware,Design_Features,NEG,,Author,average,,"broken displays when the magsafe plug is caught inside the computer upon closing , breaking the monitor ."
+l-3,Images are too dark and blurry .,Images,too dark and blurry,Display,Quality,NEG,,Author,average,,
+l-5,"I got it mainly to do android app development , and let me tell you , it 's worth more than it 's price .",,worth more than it 's price,Computer,Price,POS,I,Author,average,mainly to do android app development,
+l-6,I 'm a mac user and I would love to get this laptop .,laptop,love to get this,Laptop,General,POS,I'm a mac user,Author,strong,,
+l-7,Keyboard : it is all mushy no tactile feedback .,Keyboard,mushy,Keyboard,Design_Features,NEG,,Author,average,,no tactile feedback
+l-9,"For the price you can not go wrong , especially having an 8th gen Intel processor .",NULL,can not go wrong,Computer,Price,POS,,Author,average,,especially having an 8th gen Intel processor
+l-10,"It 's very well made - solid construction and a comfortable , well-sized keyboard .",NULL,well made,Computer,Design_Features,POS,,Author,average,,solid construction
+,,keyboard,comfortable,Keyboard,Usability,POS,,Author,average,,well-sized
+l-12,Camera and microphone are both high enough quality for discord/google hangouts/etc .,Camera,high enough quality,Multimedia_Device,Quality,POS,,Author,average,for discord/google hangouts/etc .,
+,,microphone,high enough quality,Multimedia_Device,Quality,POS,,Author,average,for discord/google hangouts/etc .,
+l-13,It has a nice keyboard touch .,NULL,NULL,Keyboard,Usability,POS,,Author,average,,nice keyboard touch
+l-14,"Please do not purchase this computer , it performs worse than the $ 200 computer I used while waiting on the ' replacement ' computer I got when the other one crashed .",computer,performs worse,Computer,Operation_Performance,NEG,I,Author,strong,,
+l-15,It took a few weeks for them to send it back .,NULL,,Shipping,General,NEG,,Author,weak,,took a few weeks for them to send it back
+l-17,I have gone through all the troubleshooting steps and still nothing .,,,Support,Quality,NEG,I,Author,average,,gone through all the troubleshooting steps and still nothing
+l-18,"Even without a SSD , it is still pretty fast .",,pretty fast,Computer,Operation_Performance,POS,,Author,strong,,"Even without a SSD , it is still pretty fast"
+l-19,I really liked the laptop for its sleekness and weight .,sleekness and weight,really liked,Laptop,Design_Features,POS,I,Author,strong,,
+l-24,Delivery - very fast by courier .,Delivery,very fast,Shipping,General,POS,,Author,strong,,
+l-28,"This laptop is verry good , the screen is not the best but its good for the price , its a cheap gaming laptop and works with every game i trow at it : - )",laptop,verry good,Laptop,General,POS,i,Author,strong,gaming,
+,,screen,not the best but its good for the price ,Display,Quality,POS,i,Author,weak,gaming,
+,,price,cheap,Laptop,Price,POS,i,Author,weak,gaming,
+l-26,"Laptop was new , in perfect condition and works like a charm .",condition,perfect,Laptop,Quality,POS,,Author,strong,,works like a charm
+,,Laptop,new,Laptop,General,NEU,,Author,strong,,
+l-29,"I had hoped for better battery life , as it had only about 2-1/2 hours doing heavy computations ( 8 threads using 100 % of the CPU ) .",battery life,hoped for better,Battery,Operation_Performance,NEG,I,Author,average,doing heavy computations,it had only about 2-1/2 hours
+l-21,Feel really disappointed as was so happy with previous model .,previous model,so happy,Computer,General,POS,,Author,strong,,
+,,,really disappointed,Computer,General,NEG,,Author,strong,,
+r-1,"Weird , but whatever , I need to eat regardless of the coupon.We waited for what seemed like an incredibly long time just to get our food .",,NULL,Service,Quality,NEG,I,Author,average,,waited for what seemed like an incredibly long time
+r-2,I come here because you leave full and with money still in your pockets .,money,,Restaurant,Prices,POS,I,Author,weak,,you leave full and with money still in your pockets
+r-3,I love hot pot but the service just makes things bad here .,hot pot,love,Food,Quality,POS,I,Author,strong,,
+,,service,bad,Service,General,NEG,I,Author,average,,
+r-4,"I do n't usually order PhO ( I do n't think I do at all because my mom is a great Pho cooker ) , yet this place makes me wanting Pho every time I come .",Pho,,Food,Quality,POS,I,Author,strong,,this place makes me wanting Pho every time I come .
+r-5,This is one of my favorite brunch places .,brunch places,favorite,Restaurant,General,POS,my,Author,strong,,
+r-6,Other establishments on the North End spoil you with tasty oils and fresh bread ... that 's a big miss here !,fresh bread,big miss,Food,Quality,NEG,,Author,strong,establishments on the North End,
+,,tasty oils,big miss,Food,Quality,NEG,,Author,strong,establishments on the North End,
+r-8,"Im going to have to come back here to try the food , so this review is just for the drinks , service and atmosphere.The atmosphere is great , nothing is too overwhelming and it does n't seem like they 're trying to beat you over the head with a theme in the decorating .",atmosphere,great,Ambience,General,POS,Im,Author,strong,,nothing is too overwhelming
+,,atmosphere,NULL,Ambience,Style_Options,POS,Im,Author,weak,,does n't seem like they 're trying to beat you over the head with a theme in the decorating
+r-9,This will probably be the last time we will come here .,,,Restaurant,General,NEG,we,Author,average,,last time we will come here
+r-10,"Stop driving out the wrong way , idiots.No credit cards , which is a bummer , but they do have an ATM inside .",credit cards,bummer,Service,Miscellaneous,NEG,,Author,average,,
+,,ATM,,Service,Miscellaneous,POS,,Author,weak,,
+r-12,"So , while I would n't quite recommend it for date night or a rehearsal dinner , it 's plenty acceptable for grabbing a quick lunch or dinner on your way somewhere else .",,plenty acceptable,Restaurant,General,POS,I,Author,average,for grabbing quick lunch or dinner,
+,,,would n't quite recommend,Restaurant,General,NEG,I,Author,average,for date night or a rehearsal dinner,
+r-13,Went to breakfast with my bestie here and really enjoyed the country style breakfast and ambiance. They were pretty crowded for a weekday and our server ladies were really sweet and helpful .,server ladies,really sweet and helpful,Service,Quality,POS,my,Author,strong,,
+,,ambiance,really enjoyed,Ambience,General,POS,my,Author,strong,,
+,,country style breakfast,really enjoyed,Food,Style_Options,POS,my,Author,strong,,
+r-14,Great place !,place,Great,Restaurant,General,POS,,Author,strong,,
+r-17,"My advice to the owners : Walking by on E. Hastings , it 's easy to miss this spot .",spot,easy to miss,Location,General,NEG,my,Author,weak,Walking by on E. Hastings,
+r-18,The reason why I gave 3 stars is because we had to search for our waitress and it took about a hour before we receive our food .,waitress,3 stars,Service,Miscellaneous,NEG,I,Author,weak,,search for our waitress and it took about a hour before we receive our food
+r-20,To add more insult he added a splash of coke to our drinks ... ..I 'm a relatively calm guy .,,add more insult,Service,Miscellaneous,NEG,I,Author,average,,added a splash of coke to our drinks
+r-20,The old place was more accommodating to singles .,old place,more accommodating,Restaurant,General,POS,,Author,average,singles,
+r-21,This chicken is unbelievable .,chicken,unbelievable,Food,General,POS,,Author,strong,,
+r-23,The chicken was also overcooked and dry .,chicken,overcooked and dry,Food,Quality,NEG,,Author,average,,
+r-27,I was reluctant to go here .,,reluctant,Restaurant,General,NEU,I,Author,average,,
+r-28,"Amazing turkey burger , french fries are to die for , and dont even get me STARTED on the milkshakes .",french fries,to die for,Food,Quality,POS,me,Author,strong,,
+,,turkey burger,Amazing ,Food,Quality,POS,me,Author,strong,,
+,,milkshakes,,Drinks,Quality,POS,me,Author,strong,,

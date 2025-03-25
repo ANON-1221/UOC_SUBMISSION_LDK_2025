@@ -1,0 +1,127 @@
+format-version: 1.2
+ontology: http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Aspect>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Average>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Expression>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Holder>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Intensity>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Negative>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Neutral>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Polarity>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Positive>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Qualifier>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Reason>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Sentiment>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Strong>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Target>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#TargetEntity>))\nDeclaration(Class(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Weak>))\nDeclaration(DataProperty(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_category>))\nDeclaration(DataProperty(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_term>))\nDeclaration(DataProperty(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_entity>))\nDeclaration(DataProperty(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_span>))\nDeclaration(DataProperty(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#qualifier_value>))\nDeclaration(DataProperty(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#reason_value>))\nDeclaration(DataProperty(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#sentiment_expression_span>))\nDeclaration(DataProperty(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#target_entity_value>))\n############################\n#   Data Properties\n############################\n\n# Data Property: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_category> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_category>)\n\nSubDataPropertyOf(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_category> owl:topDataProperty)\nDataPropertyDomain(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_category> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Aspect>)\nDataPropertyRange(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_category> DataUnionOf(xsd:anyURI xsd:string))\n\n# Data Property: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_term> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_term>)\n\nSubDataPropertyOf(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_term> owl:topDataProperty)\nDataPropertyDomain(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_term> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Aspect>)\nDataPropertyRange(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#aspect_term> xsd:string)\n\n# Data Property: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_entity> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_entity>)\n\nDataPropertyDomain(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_entity> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Holder>)\nDataPropertyRange(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_entity> DataUnionOf(xsd:anyURI xsd:string))\n\n# Data Property: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_span> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_span>)\n\nDataPropertyDomain(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_span> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Holder>)\nDataPropertyRange(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#holder_span> xsd:string)\n\n# Data Property: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#qualifier_value> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#qualifier_value>)\n\nDataPropertyDomain(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#qualifier_value> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Qualifier>)\nDataPropertyRange(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#qualifier_value> xsd:string)\n\n# Data Property: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#reason_value> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#reason_value>)\n\nDataPropertyDomain(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#reason_value> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Reason>)\nDataPropertyRange(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#reason_value> xsd:string)\n\n# Data Property: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#sentiment_expression_span> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#sentiment_expression_span>)\n\nDataPropertyDomain(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#sentiment_expression_span> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Expression>)\nDataPropertyRange(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#sentiment_expression_span> xsd:string)\n\n# Data Property: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#target_entity_value> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#target_entity_value>)\n\nDataPropertyDomain(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#target_entity_value> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#TargetEntity>)\nDataPropertyRange(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#target_entity_value> DataUnionOf(xsd:anyURI xsd:string))\n\n\n\n############################\n#   Classes\n############################\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Average> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Average>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Expression> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Expression>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Holder> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Holder>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Intensity> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Intensity>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Negative> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Negative>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Neutral> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Neutral>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Polarity> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Polarity>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Positive> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Positive>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Qualifier> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Qualifier>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Reason> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Reason>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Sentiment> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Sentiment>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Strong> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Strong>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Target> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Target>)\n\n\n# Class: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Weak> (<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Weak>)\n\n\n\nDisjointClasses(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Average> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Strong> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Weak>)\nDisjointClasses(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Expression> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Intensity> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Polarity>)\nDisjointClasses(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Holder> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Qualifier> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Reason> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Sentiment> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Target>)\nDisjointClasses(<http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Negative> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Neutral> <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts#Positive>)\n)
+
+[Term]
+id: Aspect
+is_a: Target
+disjoint_from: TargetEntity
+
+[Term]
+id: Average
+is_a: IntensityValuePartition
+disjoint_from: Strong
+
+[Term]
+id: Expression
+disjoint_from: Intensity
+
+[Term]
+id: Holder
+disjoint_from: Qualifier
+
+[Term]
+id: Intensity
+relationship: hasIntensity IntensityValuePartition {cardinality="1"}
+
+[Term]
+id: IntensityValuePartition
+union_of: Average
+union_of: Strong
+union_of: Weak
+
+[Term]
+id: Negative
+is_a: PolarityValuePartition
+disjoint_from: Neutral
+
+[Term]
+id: Neutral
+is_a: PolarityValuePartition
+
+[Term]
+id: Polarity
+relationship: hasPolarity PolarityValuePartition {cardinality="1"}
+
+[Term]
+id: PolarityValuePartition
+union_of: Negative
+union_of: Neutral
+union_of: Positive
+
+[Term]
+id: Positive
+is_a: PolarityValuePartition
+
+[Term]
+id: Strong
+is_a: IntensityValuePartition
+
+[Term]
+id: TargetEntity
+is_a: Target
+
+[Term]
+id: Weak
+is_a: IntensityValuePartition
+
+[Typedef]
+id: conveysSentiment
+domain: Opinion
+range: Sentiment
+
+[Typedef]
+id: embodiesAspect
+domain: Target
+range: Aspect
+
+[Typedef]
+id: hasIntensity
+domain: Sentiment
+range: Intensity
+
+[Typedef]
+id: hasPolarity
+domain: Sentiment
+range: Polarity
+
+[Typedef]
+id: hasQualifier
+domain: Opinion
+range: Qualifier
+
+[Typedef]
+id: hasReason
+domain: Opinion
+range: Reason
+
+[Typedef]
+id: hasSentimentExpression
+domain: Sentiment
+range: Expression
+
+[Typedef]
+id: hasTargetEntity
+domain: Target
+range: TargetEntity
+
+[Typedef]
+id: intensity_value
+domain: Intensity
+range: IntensityValuePartition
+
+[Typedef]
+id: isExpressedOnTarget
+domain: Opinion
+range: Target
+
+[Typedef]
+id: isHeldBy
+domain: Opinion
+range: Holder
+
+[Typedef]
+id: polarity_value
+domain: Polarity
+range: PolarityValuePartition
+
