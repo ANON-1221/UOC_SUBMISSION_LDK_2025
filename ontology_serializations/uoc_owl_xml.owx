@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aspect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Average"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Holder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntensityValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neutral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opinion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolarityValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qualifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Target"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TargetEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weak"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conveysSentiment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#embodiesAspect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIntensity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPolarity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQualifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReason"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSentimentExpression"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTargetEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#intensity_value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isExpressedOnTarget"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHeldBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#polarity_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aspect_category"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aspect_term"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#holder_entity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#holder_span"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#qualifier_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reason_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sentiment_expression_span"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#target_entity_value"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#IntensityValuePartition"/>
+        <ObjectUnionOf>
+            <Class IRI="#Average"/>
+            <Class IRI="#Strong"/>
+            <Class IRI="#Weak"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PolarityValuePartition"/>
+        <ObjectUnionOf>
+            <Class IRI="#Negative"/>
+            <Class IRI="#Neutral"/>
+            <Class IRI="#Positive"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Aspect"/>
+        <Class IRI="#Target"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Average"/>
+        <Class IRI="#IntensityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intensity"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasIntensity"/>
+            <Class IRI="#IntensityValuePartition"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative"/>
+        <Class IRI="#PolarityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neutral"/>
+        <Class IRI="#PolarityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polarity"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPolarity"/>
+            <Class IRI="#PolarityValuePartition"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive"/>
+        <Class IRI="#PolarityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strong"/>
+        <Class IRI="#IntensityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TargetEntity"/>
+        <Class IRI="#Target"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weak"/>
+        <Class IRI="#IntensityValuePartition"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Aspect"/>
+        <Class IRI="#TargetEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Average"/>
+        <Class IRI="#Strong"/>
+        <Class IRI="#Weak"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Expression"/>
+        <Class IRI="#Intensity"/>
+        <Class IRI="#Polarity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Holder"/>
+        <Class IRI="#Qualifier"/>
+        <Class IRI="#Reason"/>
+        <Class IRI="#Sentiment"/>
+        <Class IRI="#Target"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Negative"/>
+        <Class IRI="#Neutral"/>
+        <Class IRI="#Positive"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#conveysSentiment"/>
+        <Class IRI="#Opinion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#embodiesAspect"/>
+        <Class IRI="#Target"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIntensity"/>
+        <Class IRI="#Sentiment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPolarity"/>
+        <Class IRI="#Sentiment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQualifier"/>
+        <Class IRI="#Opinion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReason"/>
+        <Class IRI="#Opinion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSentimentExpression"/>
+        <Class IRI="#Sentiment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTargetEntity"/>
+        <Class IRI="#Target"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#intensity_value"/>
+        <Class IRI="#Intensity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isExpressedOnTarget"/>
+        <Class IRI="#Opinion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHeldBy"/>
+        <Class IRI="#Opinion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#polarity_value"/>
+        <Class IRI="#Polarity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#conveysSentiment"/>
+        <Class IRI="#Sentiment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#embodiesAspect"/>
+        <Class IRI="#Aspect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIntensity"/>
+        <Class IRI="#Intensity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPolarity"/>
+        <Class IRI="#Polarity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQualifier"/>
+        <Class IRI="#Qualifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReason"/>
+        <Class IRI="#Reason"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSentimentExpression"/>
+        <Class IRI="#Expression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTargetEntity"/>
+        <Class IRI="#TargetEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#intensity_value"/>
+        <Class IRI="#IntensityValuePartition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isExpressedOnTarget"/>
+        <Class IRI="#Target"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHeldBy"/>
+        <Class IRI="#Holder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#polarity_value"/>
+        <Class IRI="#PolarityValuePartition"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#aspect_category"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#aspect_term"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aspect_category"/>
+        <Class IRI="#Aspect"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aspect_term"/>
+        <Class IRI="#Aspect"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#holder_entity"/>
+        <Class IRI="#Holder"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#holder_span"/>
+        <Class IRI="#Holder"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#qualifier_value"/>
+        <Class IRI="#Qualifier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reason_value"/>
+        <Class IRI="#Reason"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sentiment_expression_span"/>
+        <Class IRI="#Expression"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#target_entity_value"/>
+        <Class IRI="#TargetEntity"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#aspect_category"/>
+        <DataUnionOf>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#aspect_term"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#holder_entity"/>
+        <DataUnionOf>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#holder_span"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#qualifier_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reason_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sentiment_expression_span"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#target_entity_value"/>
+        <DataUnionOf>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataUnionOf>
+    </DataPropertyRange>
+</Ontology>
