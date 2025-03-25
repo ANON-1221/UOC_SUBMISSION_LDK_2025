@@ -1,0 +1,317 @@
+Prefix: : <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts/>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://www.semanticweb.org/gauneg/ontologies/2024/6/universal-opinion-concepts>
+
+
+Datatype: xsd:anyURI
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: conveysSentiment
+
+    Domain: 
+        Opinion
+    
+    Range: 
+        Sentiment
+    
+    
+ObjectProperty: embodiesAspect
+
+    Domain: 
+        Target
+    
+    Range: 
+        Aspect
+    
+    
+ObjectProperty: hasIntensity
+
+    Domain: 
+        Sentiment
+    
+    Range: 
+        Intensity
+    
+    
+ObjectProperty: hasPolarity
+
+    Domain: 
+        Sentiment
+    
+    Range: 
+        Polarity
+    
+    
+ObjectProperty: hasQualifier
+
+    Domain: 
+        Opinion
+    
+    Range: 
+        Qualifier
+    
+    
+ObjectProperty: hasReason
+
+    Domain: 
+        Opinion
+    
+    Range: 
+        Reason
+    
+    
+ObjectProperty: hasSentimentExpression
+
+    Domain: 
+        Sentiment
+    
+    Range: 
+        Expression
+    
+    
+ObjectProperty: hasTargetEntity
+
+    Domain: 
+        Target
+    
+    Range: 
+        TargetEntity
+    
+    
+ObjectProperty: intensity_value
+
+    Domain: 
+        Intensity
+    
+    Range: 
+        IntensityValuePartition
+    
+    
+ObjectProperty: isExpressedOnTarget
+
+    Domain: 
+        Opinion
+    
+    Range: 
+        Target
+    
+    
+ObjectProperty: isHeldBy
+
+    Domain: 
+        Opinion
+    
+    Range: 
+        Holder
+    
+    
+ObjectProperty: polarity_value
+
+    Domain: 
+        Polarity
+    
+    Range: 
+        PolarityValuePartition
+    
+    
+DataProperty: aspect_category
+
+    Domain: 
+        Aspect
+    
+    Range: 
+        (xsd:anyURI or xsd:string)
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: aspect_term
+
+    Domain: 
+        Aspect
+    
+    Range: 
+        xsd:string
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: holder_entity
+
+    Domain: 
+        Holder
+    
+    Range: 
+        (xsd:anyURI or xsd:string)
+    
+    
+DataProperty: holder_span
+
+    Domain: 
+        Holder
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: owl:topDataProperty
+
+    
+DataProperty: qualifier_value
+
+    Domain: 
+        Qualifier
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: reason_value
+
+    Domain: 
+        Reason
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: sentiment_expression_span
+
+    Domain: 
+        Expression
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: target_entity_value
+
+    Domain: 
+        TargetEntity
+    
+    Range: 
+        (xsd:anyURI or xsd:string)
+    
+    
+Class: Aspect
+
+    SubClassOf: 
+        Target
+    
+    DisjointWith: 
+        TargetEntity
+    
+    
+Class: Average
+
+    SubClassOf: 
+        IntensityValuePartition
+    
+    
+Class: Expression
+
+    
+Class: Holder
+
+    
+Class: Intensity
+
+    SubClassOf: 
+        hasIntensity exactly 1 IntensityValuePartition
+    
+    
+Class: IntensityValuePartition
+
+    EquivalentTo: 
+        Average or Strong or Weak
+    
+    
+Class: Negative
+
+    SubClassOf: 
+        PolarityValuePartition
+    
+    
+Class: Neutral
+
+    SubClassOf: 
+        PolarityValuePartition
+    
+    
+Class: Opinion
+
+    
+Class: Polarity
+
+    SubClassOf: 
+        hasPolarity exactly 1 PolarityValuePartition
+    
+    
+Class: PolarityValuePartition
+
+    EquivalentTo: 
+        Negative or Neutral or Positive
+    
+    
+Class: Positive
+
+    SubClassOf: 
+        PolarityValuePartition
+    
+    
+Class: Qualifier
+
+    
+Class: Reason
+
+    
+Class: Sentiment
+
+    
+Class: Strong
+
+    SubClassOf: 
+        IntensityValuePartition
+    
+    
+Class: Target
+
+    
+Class: TargetEntity
+
+    SubClassOf: 
+        Target
+    
+    DisjointWith: 
+        Aspect
+    
+    
+Class: Weak
+
+    SubClassOf: 
+        IntensityValuePartition
+    
+    
+DisjointClasses: 
+    Average,Strong,Weak
+
+DisjointClasses: 
+    Expression,Intensity,Polarity
+
+DisjointClasses: 
+    Holder,Qualifier,Reason,Sentiment,Target
+
+DisjointClasses: 
+    Negative,Neutral,Positive
